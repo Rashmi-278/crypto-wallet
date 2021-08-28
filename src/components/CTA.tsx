@@ -11,7 +11,7 @@ export const CTA = () => (
     maxWidth="48rem"
     py={3}
   >
-    <ChakraLink isExternal href="https://github.com/vercel/next.js/blob/canary/examples/with-chakra-ui-typescript" flexGrow={1} mx={2}>
+    <ChakraLink isExternal href="https://github.com/Rashmi-278/crypto-wallet" flexGrow={1} mx={2}>
       <Button width="100%" variant="outline" colorScheme="green">
         View Repo
       </Button>
