@@ -141,7 +141,7 @@ import crypto from 'crypto';
           <Text fontSize="md">Signature</Text>
 
             <Input value={signd} isReadOnly placeholder="Encrypted message" size="lg" colorScheme='pink' />
-            <Text fontSize="md">Decrypted</Text>
+            <Text fontSize="md">Verify </Text>
 
             <Input value={verify} isReadOnly placeholder="Decrypted Message" size="lg" colorScheme='pink' />
           
