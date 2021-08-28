@@ -20,8 +20,7 @@ const Index = () => (
     <Hero />
     <Main>
       <Text>
-        Example repository of <Code>Next.js</Code> + <Code>chakra-ui</Code> +{' '}
-        <Code>typescript</Code>.
+        This project is a part of Bloom Season-0 assignment
       </Text>
 
       <List spacing={3} my={0}>
@@ -29,17 +28,17 @@ const Index = () => (
           <ListIcon as={CheckCircleIcon} color="green.500" />
           <ChakraLink
             isExternal
-            href="https://chakra-ui.com"
+            href="https://bloom.fstvl.io/"
             flexGrow={1}
             mr={2}
           >
-            Chakra UI <LinkIcon />
+            Bloom Developer Program <LinkIcon />
           </ChakraLink>
         </ListItem>
         <ListItem>
           <ListIcon as={CheckCircleIcon} color="green.500" />
-          <ChakraLink isExternal href="https://nextjs.org" flexGrow={1} mr={2}>
-            Next.js <LinkIcon />
+          <ChakraLink isExternal href="https://hackmd.io/SxSTi6svSBqefOGQogAdzg" flexGrow={1} mr={2}>
+          Project Specification <LinkIcon />
           </ChakraLink>
         </ListItem>
       </List>
@@ -47,7 +46,10 @@ const Index = () => (
 
     <DarkModeSwitch />
     <Footer>
-      <Text>Next ❤️ Chakra</Text>
+      <ChakraLink isExternal href="https://github.com/Rashmi-278" >
+      <Text>By Rashmi-278</Text>
+      </ChakraLink>
+      
     </Footer>
     <CTA />
   </Container>

@@ -8,10 +8,10 @@ export const Hero = ({ title }: { title: string }) => (
     bgGradient="linear(to-l, #7928CA, #FF0080)"
     bgClip="text"
   >
-    <Heading fontSize="6vw">{title}</Heading>
+    <Heading fontSize="4vw">{title}</Heading>
   </Flex>
 )
 
 Hero.defaultProps = {
-  title: 'with-chakra-ui-typescript',
+  title: 'Crypto wallet implementation in javascript',
 }
